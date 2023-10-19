@@ -1,0 +1,44 @@
+
+
+body{
+  background-color: rgb(134, 131, 131);
+}
+
+.container{
+  width: auto;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.heading{
+  padding-left: 100px;
+  font-weight: 900;
+}
+
+.box{
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows:2fr ;
+  background-color: red;
+}
+
+.res{
+  width:100% ;
+}
+
+
+.screen{
+  width:400px;
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.button{
+  height: 80px;
+  background-color: black;
+  color: white;
+}
